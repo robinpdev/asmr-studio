@@ -1,2 +1,2 @@
 # asmr-studio
- a webaoo for playing ASMR audio
+ a webapp for playing ASMR audio
