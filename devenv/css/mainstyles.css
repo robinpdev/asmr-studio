@@ -1,0 +1,179 @@
+body {
+    background: #2b3033;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+  }
+
+#screencontent > *{
+  position: absolute;
+}
+  
+  button {
+    text-align: center;
+    background: rgb(52, 160, 52);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    line-height: 0.5em;
+    margin: 4px;
+    border-radius: 4px;
+  }
+  
+  .borderview {
+    border: solid 2px rgb(141, 141, 141);
+    background-color: rgb(46, 46, 46);
+    width: 26%;
+    margin: 8px;
+    margin-left: 1%;
+    padding: 6px;
+    position: absolute;
+  }
+  
+  .partle {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 8px 6px;
+    text-align: left;
+    font-size: 16px;
+    margin: 2px 0px;
+    transition: 0.3s;
+  }
+  
+  .partle-click:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+  
+  .partle-click {
+    text-align: center;
+  }
+  
+  .partle-info:hover {
+    background-color: darkgrey;
+  }
+  
+  h1 {
+    margin-left: 1%;
+  }
+  
+  .swindow {
+    position: absolute;
+    min-height: 40%;
+    width: 40%;
+    padding: 0px;
+  }
+  
+  #confview {
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  
+  #infoview {
+    position: absolute;
+
+    min-height: 40%;
+  }
+  
+  #confsel {
+    width: 96%;
+    margin: 6px;
+    text-align: center;
+  }
+  
+  #pdelbutton {
+    width: max-content;
+    height: fit-content;
+    float: left;
+  }
+  
+  #peditbutton {
+    width: max-content;
+    height: fit-content;
+    float: none;
+  }
+  
+  #paddbutton {
+    width: max-content;
+    height: fit-content;
+    float: right;
+  }
+  
+  .partelement {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .stencil {
+    display: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  li a:hover {
+    background-color: rgb(29, 119, 62);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  .popup {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  
+  #maincontent{
+    transition: filter 0.4s;
+  }
+  
+  input, select{
+    height: 24px;
+  }
+  
+  h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  boxcol{
+      background: #131313;
+  }
