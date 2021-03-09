@@ -23,6 +23,10 @@ boxrow.center, boxcol.center{
     justify-content: center;
 }
 
+boxrow.vcenter, boxcol.vcenter{
+    align-items: center;
+}
+
 boxrow.stretch{
     align-items: stretch;
     justify-content: space-evenly;
