@@ -1,10 +1,8 @@
-console.log("startup");
+//console.log("startup");
 var templates = [];
 
 $("#stencils").load("res/html/templates.html", function () {
     $("#stencils").children().each(function () {
-        console.log("new");
-        console.log(this);
         let name = $(this).attr('id');
         let html = Handlebars.compile($(this)[0].outerHTML);
         templates.push({
@@ -12,6 +10,8 @@ $("#stencils").load("res/html/templates.html", function () {
             html: html
         });
     });
+    shouldstart = true;
+    setup();
 });
 
 function temp(inname, data) {
